@@ -18,7 +18,7 @@ Lista *criarLista(){
         l->head = NULL;
         l->size = 0;
     }else{
-            printf("Erro ao alocar memoria");
+        printf("Erro ao alocar memoria");
     }
     
 }

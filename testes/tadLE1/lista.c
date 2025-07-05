@@ -14,7 +14,7 @@ struct Lista{
 
 Lista *criarLista(){
     Lista *l = (Lista*) malloc(sizeof(Lista));
-    if(l != NULL){
+    if (l != NULL){
         l->head = NULL;
         l->size = 0;
     }else{
